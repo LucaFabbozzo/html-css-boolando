@@ -63,7 +63,7 @@ header .logo img {
 
 
 main {
-  padding: 100px 160px;
+  padding: 100px 320px;
   text-align: center;
 }
 
@@ -97,6 +97,8 @@ main .row .product .heart {
   right: 0px;
   background-color: #FFFFFF;
 }
+
+
 
 main .row .product .heart:hover {
   color: #FE0100;
