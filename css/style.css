@@ -16,6 +16,12 @@ img {
   max-width: 100%;
 }
 
+container {
+  width: 80%;
+  max-width: 1200px;
+  margin: 40px auto;
+}
+
 
 /* header */
 
@@ -49,4 +55,21 @@ header nav ul li a {
 header .logo img {
   width: 65px;
   vertical-align: middle;
+}
+
+
+/* main */
+
+
+main {
+  padding: 100px 320px;
+  text-align: center;
+}
+
+main .row .product {
+  width: 195px;
+  height: 315px;
+  background-color: rgb(176, 222, 222);
+  display: inline-block;
+  margin-bottom: 10px;
 }
