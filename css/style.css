@@ -124,6 +124,12 @@ main .row .product .green {
   left: 30px;
 }
 
+main .row .product .green.last {
+  position: absolute;
+  bottom: 55px;
+  left: 0px;
+}
+
 main .row .product .bottom {
   text-align: left;
 }
