@@ -35,6 +35,7 @@ header {
   background-color: #FF6801;
   text-align: center;
   box-shadow: 1px 2px 3px 2px rgba(0, 0, 0, 0.2);
+  z-index: 999;
 }
 
 header nav ul {
@@ -62,14 +63,122 @@ header .logo img {
 
 
 main {
-  padding: 100px 320px;
+  padding: 100px 160px;
   text-align: center;
 }
 
 main .row .product {
   width: 195px;
-  height: 315px;
-  background-color: rgb(176, 222, 222);
+  /* height: 315px; */
   display: inline-block;
-  margin-bottom: 10px;
+  cursor: pointer;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+main .row .product .mouse {
+  display: none;
+}
+
+main .row .product:hover .mouse {
+  display: block;
+}
+
+main .row .product:hover .default {
+  display: none;
+}
+
+
+
+main .row .product .heart {
+  position: absolute;
+  padding: 5px 8px;
+  top: 5px;
+  right: 0px;
+  background-color: #FFFFFF;
+}
+
+main .row .product .heart:hover {
+  color: #FE0100;
+}
+
+
+
+main .row .product .discount {
+  position: absolute;
+  background-color: #FE0100;
+  color: #FFFFFF;
+  padding: 2px 5px;
+  font-size: 0.5rem;
+  bottom: 55px;
+  left: 0px;
+}
+
+main .row .product .green {
+  position: absolute;
+  background-color: #008000;
+  color: #FFFFFF;
+  padding: 2px 5px;
+  font-size: 0.5rem;
+  bottom: 55px;
+  left: 30px;
+}
+
+main .row .product .bottom {
+  text-align: left;
+}
+
+main .row .product .bottom h2 {
+  font-size: 0.5rem;
+  font-weight: lighter;
+}
+
+main .row .product .bottom p {
+  font-size: 0.5rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  line-height: 10px;
+}
+
+main .row .product .bottom span{
+  font-size: 0.5rem;
+  margin-right: 5px;
+  color: #FE0100;
+  font-weight: bold;
+}
+
+main .row .product .bottom .noprize {
+  color: black;
+  text-decoration: line-through;
+}
+
+.pricing {
+  display: flex;
+}
+
+
+
+/* footer */
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  height: 30px;
+  background-color: #1A191B;
+  color: #FFFFFF;
+  font-size: 0.5rem;
+  width: 100%;
+  padding: 4px 5px;
+}
+
+
+footer nav ul li {
+  display: inline-block;
+  margin-right: 5px;
+}
+
+
+footer nav ul li a {
+  color: #FFFFFF;
+  text-decoration: none;
 }
