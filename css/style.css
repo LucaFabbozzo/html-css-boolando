@@ -14,7 +14,7 @@ body {
 
 img {
   max-width: 100%;
-}
+} 
 
 container {
   width: 80%;
@@ -69,7 +69,6 @@ main {
 
 main .row .product {
   width: 195px;
-  /* height: 315px; */
   display: inline-block;
   cursor: pointer;
   position: relative;
@@ -81,7 +80,7 @@ main .row .product .mouse {
 }
 
 main .row .product:hover .mouse {
-  display: block;
+  display: inline-block;
 }
 
 main .row .product:hover .default {
@@ -102,8 +101,8 @@ main .row .product .heart {
 
 main .row .product .heart:hover {
   color: #FE0100;
-}
 
+}
 
 
 main .row .product .discount {
