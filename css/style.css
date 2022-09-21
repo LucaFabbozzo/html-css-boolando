@@ -30,7 +30,7 @@ header {
   justify-content: space-around;
   align-items: center;
   position: fixed;
-  height: 30px;
+  height: 45px;
   width: 100%;
   background-color: #FF6801;
   text-align: center;
@@ -40,12 +40,13 @@ header {
 
 header nav ul {
   padding: 0px 30px;
-  font-size: 0.6rem;
+  font-size: 0.7rem;
 }
 
 header nav ul li {
   display: inline-block;
   list-style: none;
+  margin: 2px;
 }
 
 header nav ul li a {
@@ -53,8 +54,12 @@ header nav ul li a {
   color: white;
 }
 
+header nav ul li a:hover {
+  text-decoration: underline;
+}
+
 header .logo img {
-  width: 65px;
+  width: 80px;
   vertical-align: middle;
 }
 
@@ -170,7 +175,8 @@ main .row .product .bottom .noprize {
 footer {
   display: flex;
   justify-content: space-around;
-  height: 30px;
+  align-items: center;
+  height: 45px;
   background-color: #1A191B;
   color: #FFFFFF;
   font-size: 0.5rem;
